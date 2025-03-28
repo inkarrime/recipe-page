@@ -91,6 +91,7 @@ main {
     background-color: var(--white-color);
     & .image {
         margin-bottom: 2.5rem;
+        width: 100%;
     }
     & .title {
         color: var(--stone-900);
@@ -146,8 +147,10 @@ main {
     }
     .recipe-container {
         margin: 8.5rem 0;
-        & img {
+        & .image-container {
             padding: 2.5rem 2.5rem 0 2.5rem;
+        }
+        & img {
             border-radius: 12px;
         }
     }
